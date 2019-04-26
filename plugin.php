@@ -128,4 +128,3 @@ function bs_gastronomy_on_save($post_id)
 
 add_action('init', 'bs_gastronomy_register_post_type');
 add_action('save_post', 'bs_gastronomy_on_save');
-bs_gastronomy_create_custom_params();
